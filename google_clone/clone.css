@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: arial, sans-serif;
+	font-size: small;
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 94%;
+	height: auto !important;
+	height: 94%;
+	margin: 0 auto -40px;
+}
+.logobox {
+	position: absolute;
+	top: 200px;
+	width: 100%;
+}
+.logo {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+.logo img {
+	height: 92px;
+	width: 272px;
+}
+.searchform {
+	position: absolute;
+	top: 322px;
+	width: 100%;
+}
+.search {
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 1px;
+	max-width: 45%;
+	margin: auto;
+	height: 38px !important;
+}
+
+.search:hover {
+	border-color: darkgrey;
+}
+
+.textbox {
+	float: left;
+}
+
+.mic {
+	float: right;
+	width: 24px;
+	height: 24px;
+	margin-top: 8px;
+}
+.mic img {
+	height: 88%;
+}
+
+.center {
+	padding-top: 43px;
+	width: 571px;
+	height: 58px;
+	margin: auto;
+	text-align: center;
+}
+
+.lucky {
+	background-color: #f5f5f5;
+	color: #757575;
+	padding: 11px;
+	margin-left: 5px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+.googsearch {
+	background-color: #f5f5f5;
+	color: #757575;
+	padding: 11px;
+	margin-right: 5px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+.lucky:hover, .googsearch:hover {
+	color: black;
+	border-color: darkgrey;
+	border-style: solid;
+	border-width: 1px;
+
+}
+
+footer, .push {
+	height: 6%;
+}
+
+footer {
+	border-top: 1px solid #e4e4e4;
+	background-color: #f5f5f5;
+}
+
+footer .right {
+	float: right;
+	margin-top: 12px;
+	margin-right: 15px;
+}
+
+footer .left {
+	float: left;
+	margin-top: 12px;
+	margin-left: 15px;
+}
+
+footer a {
+	padding: 15px;
+	color: #4B5457;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+.topmenu {
+	position: absolute;
+    top: 5px;
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.topmenu .menu {
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.topmenu .menu a {
+	color: #4B5457;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.topmenu .menu a:hover {
+	text-decoration: underline;
+}
+
+.topmenu .menu .val {
+	color: darkgrey;
+}
+
+.topmenu .avatar {
+	float: right;
+	padding: 1px 30px 0px 15px;
+}
+
+.topmenu .avatar img {
+	height: 33px;
+	border-radius: 50%;
+}
+
+.topmenu .icons {
+	float: right;
+}
+.topmenu .icons img {
+	height: 25px;
+	padding: 5px;
+}
+
